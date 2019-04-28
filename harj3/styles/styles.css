@@ -1,0 +1,64 @@
+    body {
+    text-align: center;
+    background-color:#222629;
+    font-family: sans-serif;
+    color: whitesmoke; /* tällä määritetään lähes kaiken tekstin väri*/
+    }
+    h3 {
+
+    margin-top: 100px;
+    }
+    h2 {
+    text-align: left;
+    color: DarkViolet;
+    padding-left: 30px;
+    }
+    ul {
+    text-align: left;
+    }
+    p.teksti {
+    text-align: left;
+    }
+    a:visited {
+    color: antiquewhite;
+    }
+    a.active, a:active {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #6b6e70;
+    }
+    .kuva{
+    width:100px;
+    height:100px;
+    border: 2px solid royalblue;
+    margin: 10px;
+    margin-top: 25px;
+    }
+.banner {
+    text-align: center;
+    height:100px;
+    background-color:#6b6e70;
+    color:white;
+    padding-top: 45px;
+    margin-bottom: 0px;
+}
+/* pienempien otsikoiden määritykset */
+.otsikko{
+
+    color:#c1c8e4;
+    background-color:#474b4f;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+/* valikon määritykset */
+.nav {
+    font-size: 1.2em;
+    height: 30px;
+    background-color:#474b4f;
+    padding-top: 10px;
+    margin-top:0px;
+
+    
+}

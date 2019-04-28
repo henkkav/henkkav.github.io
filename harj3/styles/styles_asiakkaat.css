@@ -1,0 +1,25 @@
+    body {
+    margin-left: 50px;
+    margin-top: 50px;
+    }
+    #asiakkaat {
+    margin-top: 50px;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border: 1px solid royalblue;
+    }
+    #asiakkaat td.odd {
+    background-color: azure;
+    }
+    #asiakkaat th, #asiakkaat td{
+    background-color: beige;
+    border: 1px solid royalblue;
+    padding: 5px;
+    }
+    #asiakkaat th {
+    background-color: lightblue;
+    color:whitesmoke;
+    font-size: 1.2em;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    }
