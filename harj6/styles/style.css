@@ -4,7 +4,6 @@ body {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Verdana", "sans-serif";
 }
 main {
-    max-width: 90%;
     margin: auto;
 }
 header {
@@ -94,4 +93,4 @@ a:hover:not(.active) {
 .active {
   background-color:#cb811a;
 }
-} /* menu loppuu*/
+/* menu loppuu*/
