@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta content="Henri Vikman verkkosivu ja portfolio" name="description">
+  <meta content="Henri Vikman,portfolio,html,css" name="keywords">
+  <meta content="Henri Vikman" name="author">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Henri Vikman</title>
+<!--tyylitiedostot, jquery, aos ja fancybox(lightbox ei suostunut toimimaan)-->
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js">
+  </script>
+</head>
+
+<body>
+  <!-- käynnistetään Animate On Scroll Library (AOS) https://michalsnik.github.io/aos/ -->
+  <script>
+  AOS.init();
+  </script>
+
+  <section id="Etusivu">
+    <img alt="" class="cloud" id="pilvi" src="images/cloud.png"> <img alt="" class="cloud2" id="pilvi2" src="images/cloud2.png"> 
+<!--======================VALIKKO==================================-->
+
+
+    <nav id="menu">
+      <ul>
+        <li class="etusivu">
+          <a href="#Etusivu"><i class="fas fa-home"></i> Etusivu</a>
+        </li>
+
+
+        <li class="tietoa">
+          <a href="#Min%C3%A4"><i class="fas fa-info"></i> Minä</a>
+        </li>
+
+
+        <li class="portfolio">
+          <a href="#Portfolio"><i class="fas fa-book-open"></i> Portfolio</a>
+        </li>
+
+
+        <li class="yhteystiedot">
+          <a href="#Yhteystiedot"><i class="far fa-id-card"></i> Yhteystiedot</a>
+        </li>
+      </ul>
+    </nav>
+<!--======================SOMELINKIT==================================-->
+
+
+    <nav id="some">
+      <a class="facebook" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a> <a class="twitter" href="https://twitter.com"><i class="fab fa-twitter"></i></a> <a class="linkedin" href="https://linkedin.com"><i class="fab fa-linkedin"></i></a> <a class="instagram" href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+    </nav>
+<!--======================ETUSIVU==================================-->
+
+
+    <article id="etusivu">
+      <img alt="kuva" id="kuva" src="images/avatar.png">
+
+      <h1>Henri Vikman</h1>
+
+
+      <p class="teksti1">Moro!<br>
+      Mä oon Henri Kangasalta ja tällä hetkellä ajan jäteautoa, mutta tavoitteeni on päästä opiskelemaan tieto- ja viestintätekniikkaa Jyväskylän ammattikorkeakouluun.<br>
+      <a href="#Yhteystiedot">Ota yhteyttä!</a></p>
+    </article>
+  </section>
+<!--======================MINÄ==================================-->
+
+
+  <section id="Minä">
+    <article class="article">
+      <h2>Minä</h2>
+
+
+      <article id="taidot">
+        <h4>Taidot</h4>
+
+
+        <p><i class="fab fa-html5 fa-2x"></i> HTML: HTML5 ei tuota juurikaan ongelmia ja pärjään HTML kanssa melko hyvin.<br>
+        <br>
+        <i class="fab fa-css3-alt fa-2x"></i> CSS: CSS osaan perusteet, mutta selviydyn myös sen käytöstä hyvin.</p>
+      </article>
+
+
+      <article id="taidot">
+        <h4><i class="fas fa-book fa-2x"></i> Koulutus ja työkokemus</h4>
+
+
+        <p>Olen opiskellut Tampereen aikuiskoulutuskeskuksessa Logistiikan perustutkinnon ja valmistunut syksyllä 2017.<br>
+        <br>
+        Valmistumisen jälkeen jäin töihin yritykseen, jossa suoritin työharjottelun ja sain vakituisen työsopimuksen lähes heti.</p>
+      </article>
+
+
+      <article id="taidot" style="margin-bottom: 6em">
+        <h4>Minä työntekijänä</h4>
+
+
+        <p>Pyrin aina tekemään työni niin hyvin kuin pystyn ja mahdollisimman tehokkaasti ilman, että tarvitsee liikaa stressiä ottaa.<br>
+        <br>
+        Osaan noudattaa ohjeita, mutta tarvittaessa pystyn myös itse selvittämään ja opettelemaan asioita.</p>
+      </article>
+    </article>
+  </section>
+<!--======================PORTFOLIO==================================-->
+
+
+  <section id="Portfolio">
+    <article class="article" id="port1">
+      <h2>Portfolio</h2>
+
+
+      <h3><i class="fas fa-briefcase"></i> Koulutöitä</h3>
+<!--======================TEHTÄVÄ==================================-->
+
+
+      <div class="card2">
+        <a data-caption="Lähdekoodi" data-fancybox="gallery1" href="images/kuva4.png"><img alt="kuva" class="thumb" src="images/kuva2.png"></a> <a data-caption="Lähdekoodi" data-fancybox="gallery1" href="images/kuva2.png"></a>
+        <p class="kortti">Klikkaamalla kuvaa näet lisää kuvia.</p>
+      </div>
+
+
+      <article class="korttiteksti2" data-aos="fade-left" data-aos-duration="700" data-aos-easing="linear">
+        <h4><strong>Tehtävä 1</strong>
+        </h4>
+        <p>Tässä harjoituksessa opeteltiin HTML perusteet.</p>
+        
+        Harjoitus löytyy <a href="https://henkkav.github.io/harj1/index.html" target="_blank">täältä.</a> Ja kuvat näkee myös klikkaamalla <a data-caption="Lähdekoodi" data-fancybox="gallery1" href="images/kuva4.png">tästä.</a>
+      </article>
+<!--======================TEHTÄVÄ==================================-->
+
+
+      <div class="card">
+        <a data-caption="Lähdekoodi" data-fancybox="gallery2" href="images/kuva3.png"><img alt="kuva" class="thumb" src="images/kuva3.png"></a> <a data-caption="Lähdekoodi" data-fancybox="gallery2" href="images/kuva1.png"></a>
+        <p class="kortti">Klikkaamalla kuvaa näet lisää kuvia.</p>
+      </div>
+
+      <article class="korttiteksti" data-aos="fade-right" data-aos-duration="700" data-aos-easing="linear">
+        <h4><strong>Tehtävä 2</strong>
+        </h4>
+        <p>Tässä harjoituksessa opeteltiin HTML taulukoiden ja CSS perusteet.</p>
+        Harjoitus löytyy <a href="https://henkkav.github.io/harj2/index.html" target="_blank">täältä</a> , taulukko löytyy <a href="https://henkkav.github.io/harj2/taulukko.html" target="_blank">täältä</a> ja kuvat näkee myös klikkaamalla <a data-caption="Lähdekoodi" data-fancybox="gallery2" href="images/kuva3.png">tästä.</a>
+      </article>
+<!--======================TEHTÄVÄ==================================-->
+
+
+      <div class="card2">
+        <a data-caption="Lähdekoodi" data-fancybox="gallery3" href="images/kuva5.png"><img alt="kuva" class="thumb" src="images/kuva7.png"></a> <a data-caption="Lähdekoodi" data-fancybox="gallery3" href="images/kuva6.png"></a> <a data-caption="Lähdekoodi" data-fancybox="gallery3" href="images/kuva8.png"></a> <a data-caption="Lähdekoodi" data-fancybox="gallery3" href="images/kuva8.png"></a>
+        <p class="kortti">Klikkaamalla kuvaa näet lisää kuvia.</p>
+      </div>
+
+      <article class="korttiteksti2" data-aos="fade-left" data-aos-duration="700" data-aos-easing="linear">
+        <h4><strong>Tehtävä 3</strong>
+        </h4>
+        <p>Tässä harjoituksessa opeteltiin lisää CSS ja HTML perusteita</p>
+        Harjoituksen tehtävät löytyy <a href="https://henkkav.github.io/harj3/index.html" target="_blank">täältä</a> , <a href="https://henkkav.github.io/harj3/asiakkaat_taulukko.html" target="_blank">täältä</a> ja kuvat näkee myös klikkaamalla <a data-caption="Lähdekoodi" data-fancybox="gallery3" href="images/kuva5.png">tästä.</a>
+      </article>
+<!--======================TEHTÄVÄ==================================-->
+
+
+      <div class="card">
+        <a data-caption="Lopputulos" data-fancybox="gallery4" href="images/kuva9.png"><img alt="kuva" class="thumb" src="images/kuva10.png"></a> <a data-caption="Lopputulos" data-fancybox="gallery4" href="images/kuva10.png"></a>
+        <p class="kortti">Klikkaamalla kuvaa näet lisää kuvia.</p>
+      </div>
+
+      <article class="korttiteksti" data-aos="fade-right" data-aos-duration="700" data-aos-easing="linear">
+        <h4><strong>Tehtävä 4</strong>
+        </h4>
+        <p>Tässä harjoituksessa opeteltiin tekemään layout diveillä toteutettuna. <a href="https://henkkav.github.io/harj4/index.html" target="_blank">täältä</a>ja kuvat näkee myös klikkaamalla <a data-caption="Lähdekoodi" data-fancybox="gallery4" href="images/kuva9.png">tästä.</a>
+      </article>
+<!--======================TEHTÄVÄ==================================-->
+
+
+      <div class="card2">
+        <a data-caption="Lopputulos" data-fancybox="gallery5" href="images/kuva12.png"><img alt="kuva" class="thumb" src="images/kuva12.png"></a> <a data-caption="Lopputulos" data-fancybox="gallery5" href="images/kuva12.png"></a>
+        <p class="kortti">Klikkaamalla kuvaa näet lisää kuvia.</p>
+      </div>
+
+      <article class="korttiteksti2" data-aos="fade-left" data-aos-duration="700" data-aos-easing="linear">
+        <h4><strong>Tehtävä 5</strong>
+        </h4>
+        <p>Tässä harjoituksessa opeteltiin skaalautuvan layoutin perusteita ja valikon muodostaminen.<a href="https://henkkav.github.io/harj5/index.html" target="_blank">täältä</a> ja kuvat näkee myös klikkaamalla <a data-caption="Lähdekoodi" data-fancybox="gallery5" href="images/kuva11.png">tästä.</a>
+      </article>
+<!--======================TEHTÄVÄ==================================-->
+
+
+      <div class="card">
+        <a data-caption="Lopputulos" data-fancybox="gallery6" href="images/kuva14.png"><img alt="kuva" class="thumb" src="images/kuva14.png"></a> <a data-caption="Lopputulos" data-fancybox="gallery6" href="images/kuva13.png"></a>
+        <p class="kortti">Klikkaamalla kuvaa näet lisää kuvia.</p>
+      </div>
+
+      <article class="korttiteksti" data-aos="fade-right" data-aos-duration="700" data-aos-easing="linear">
+        <h4><strong>Tehtävä 6</strong>
+        </h4>
+        <p>Tässä harjoituksessa opeteltiin HTML5 semanttisia rakenteita, erilaisia kirjaisintyylejä ja ikoneja.<a href="https://henkkav.github.io/harj6/index.html" target="_blank">täältä</a> ja kuvat näkee myös klikkaamalla <a data-caption="Lähdekoodi" data-fancybox="gallery6" href="images/kuva13.png">tästä.</a>
+      </article>
+<!--======================TEHTÄVÄ==================================-->
+
+
+      <div class="card2">
+        <a data-caption="Lopputulos" data-fancybox="gallery7" href="images/kuva16.png"><img alt="kuva" class="thumb" src="images/kuva16.png"></a> <a data-caption="Lopputulos" data-fancybox="gallery7" href="images/kuva15.png"></a>
+        <p class="kortti">Klikkaamalla kuvaa näet lisää kuvia.</p>
+      </div>
+
+      <article class="korttiteksti2" data-aos="fade-left" data-aos-duration="700" data-aos-easing="linear">
+        <h4><strong>Tehtävä 7</strong>
+        </h4>
+        <p>Tässä harjoituksessa opeteltiin HTML mediaelementtejä ja kuvagalleria LightBox kirjastolla.<a href="https://henkkav.github.io/harj7/index.html" target="_blank">täältä</a> ja kuvat näkee myös klikkaamalla <a data-caption="Lähdekoodi" data-fancybox="gallery7" href="images/kuva15.png">tästä.</a>
+      </article>
+    </article>
+  </section>
+<!--======================YHTEYSTIEDOT==================================-->
+
+
+  <section id="Yhteystiedot">
+    <article class="article">
+      <h2>Ota yhteyttä!</h2>
+
+
+      <p id="formteksti">Pistä viestä ja jutellaan:</p>
+
+
+      <form action="#" method="post">
+        <div>
+          <label for="name"><i class="fas fa-user"></i> Nimi:</label> <input id="name" name="user_name" placeholder="Nimi" type="text">
+        </div>
+
+
+        <div>
+          <label for="mail"><i class="fas fa-envelope-square"></i> Email:</label> <input id="mail" name="user_mail" placeholder="Sähköposti" type="email">
+        </div>
+
+
+        <div>
+          <label for="msg"><i class="far fa-comment"></i> Viesti:</label> 
+
+          <textarea id="msg" name="user_message" placeholder="Viestisi"></textarea>
+        </div>
+
+
+        <div class="button">
+          <button onclick="alert('Ei toimi :).')" type="reset">Lähetä viesti</button>
+        </div>
+      </form>
+
+
+      <address>
+        Henri vikman<br>
+        Mäntyveräjäntie 7<br>
+        36220 Kangasala<br>
+        <br>
+        M9745@student.jamk.fi<br>
+        0465974075
+      </address>
+    </article>
+  </section>
+</body>
+</html>
